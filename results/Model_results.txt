@@ -1,0 +1,18 @@
+Variables del modelo X: culmenlength, culmendepth, delta15n, delta13c, Body_Mass_ln, Flipper_Length_ln, island_Biscoe, island_Dream, island_Torgersen, clutchcompletion_False, clutchcompletion_True, sex_., sex_FEMALE, sex_MALE, sex_NaN
+Accuracy: 0.9696969696969697
+F1: 0.9688246097337005
+Matriz de confusión del conjunto de test:
+                                           Adelie Penguin (Pygoscelis adeliae)  \
+Adelie Penguin (Pygoscelis adeliae)                                         29   
+Chinstrap penguin (Pygoscelis antarctica)                                    2   
+Gentoo penguin (Pygoscelis papua)                                            0   
+
+                                           Chinstrap penguin (Pygoscelis antarctica)  \
+Adelie Penguin (Pygoscelis adeliae)                                                0   
+Chinstrap penguin (Pygoscelis antarctica)                                         10   
+Gentoo penguin (Pygoscelis papua)                                                  0   
+
+                                           Gentoo penguin (Pygoscelis papua)  
+Adelie Penguin (Pygoscelis adeliae)                                        0  
+Chinstrap penguin (Pygoscelis antarctica)                                  0  
+Gentoo penguin (Pygoscelis papua)                                         25  
